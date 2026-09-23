@@ -1,0 +1,427 @@
+{
+  "versionName": "0.7.1",
+  "versionCode": 9,
+  "generatedAt": "2026-09-22T13:20:47.463980+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/android-debug.yml",
+      "size": 1372,
+      "sha256": "ba7a3cdb02ab0ab09fe8b3f0148adbb398af3b459e912541939ce972e7b5c11d"
+    },
+    {
+      "path": "BUILD_NOTES.txt",
+      "size": 982,
+      "sha256": "dfb06295f5a7ac5b7559a9265ad448b7b2f19762a2b0a0db010ef7b397b7a9d9"
+    },
+    {
+      "path": "BUILD_VERIFICATION_RESULTS.md",
+      "size": 790,
+      "sha256": "8eb10796c202c521cb7a3cf2b2ffb33bde6bcfe81042b6afd2b841fadcf15e72"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "size": 1794,
+      "sha256": "4baa2c2cadc2dcf442c7113c4e1f7e485f4ab9bb1ccaecd6860ed1eadf7295f0"
+    },
+    {
+      "path": "README.md",
+      "size": 8449,
+      "sha256": "78e413330ef55e15ca9716bd176dcd31518c16549dbe588a7533d61f1aa87ef3"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "size": 593,
+      "sha256": "3959509fd6ca74c6cc0b8d758f6bb55ed623ca2ae9f113fb24f5a505674e7e7b"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "size": 2249,
+      "sha256": "65d8a410f6c0e369e7fd9a9e0415b2d7175da039d1ccefd0b696343a54be20f4"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/AiCoordinator.kt",
+      "size": 6518,
+      "sha256": "19b9be5314aedb9af0357e22179359dbb842811e6399c5b5a1f9347074db6618"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/AiModels.kt",
+      "size": 938,
+      "sha256": "bf05ea1ffcaa7e1936189d1c686ceb674658e6c18894b62670295a5d8bd8efe2"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/AiPromptBuilder.kt",
+      "size": 2467,
+      "sha256": "849e26c5db540e2d97ff164200ecba261f7b3dc73e14a98c5f86ebb7963bb2ec"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/AiProvider.kt",
+      "size": 229,
+      "sha256": "7625d19aafed7bc89f19f3ee690a56874d6d4633ad927050b5205d2290ed52d1"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/GeminiProvider.kt",
+      "size": 3085,
+      "sha256": "205e76d87a7d567e1b5a13b649c40c83747aa11c3bd17e1342d9eb2b115b9a73"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/HttpJson.kt",
+      "size": 932,
+      "sha256": "0b872c1b580df7e3225cb3550e9fe02545fa1c53224d489208ead8826d91f858"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ai/OpenAiCompatibleProvider.kt",
+      "size": 2867,
+      "sha256": "1df54db9f3f7656b482b0fbcd51591472a447b154d4ab50157aebd472ffabd81"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/CharacterAssetStore.kt",
+      "size": 2063,
+      "sha256": "e34f7ad9e0b0d9d2e5dca9f7f0d9c02d9f6cc8893e4e3618131f2c7f812714ae"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/CharacterDirectory.kt",
+      "size": 6769,
+      "sha256": "3f1b5dd36dc7f9957e6f6756041c517748d2a3b8c473b5f378ef065b60719bb2"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/ContextCooldownRepository.kt",
+      "size": 576,
+      "sha256": "046e7727eb4c6e694f42564dda4945de185cb3ef2f54257018e0b77e904ab89f"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/GroupChatRepository.kt",
+      "size": 4131,
+      "sha256": "a008a784654e0a4fc582462ba67301e690d5de1795b79f67421ecae47f4256c5"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/LongTermMemoryRepository.kt",
+      "size": 3499,
+      "sha256": "abedc690e8656b2070fc7f6be51389212ac9efb7c2ded1dce2d7f506fb9e46e8"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/MemoryRepository.kt",
+      "size": 1558,
+      "sha256": "3b558a4a0f7a2c16a282fde4a4becbeba861283168fbc33901fce383b599d0d7"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/OfflineSettingsRepository.kt",
+      "size": 641,
+      "sha256": "16a207033070b4a22d1a2610254596e4f2cea8c89b3b1535c6026ab6d70eb354"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/ProfileRepository.kt",
+      "size": 6487,
+      "sha256": "82788ab287cb42b2b051c62df4dd170986d1391be8127aa775bd0a7d4e7ce6e2"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/SecretStore.kt",
+      "size": 2513,
+      "sha256": "6edcf598582128e43ca18bf6e241184337fbf1ce1102d903e33b251e7d221500"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/SocialRelationshipRepository.kt",
+      "size": 2689,
+      "sha256": "e761aae711223da938b4bba03086e87bdb7e6495025b10393ac38861740fb52e"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/StateRepository.kt",
+      "size": 1159,
+      "sha256": "55e70c6514bff68947dea177c22cd899b8f4ee998e2a7300969c091f2a87f61f"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/StickerRepository.kt",
+      "size": 2355,
+      "sha256": "06e74f69cf31fbeac1046109991d2f1d512331ebfcd5ee89657008f613ad67f5"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/data/VoiceClipRepository.kt",
+      "size": 2289,
+      "sha256": "4f7ee2972ba991254ecdb20958dcf921fa4761656039d68d2b7a3d134eee56dc"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/CustomHttpTtsClient.kt",
+      "size": 2075,
+      "sha256": "0544391a9426b2413403a10cb2cd9bd669203516d58f4aadbd5a97f51b855ac2"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/DialogueEngine.kt",
+      "size": 3112,
+      "sha256": "fee9ca81c4f53194f1fe687352f3168bcc0852621975a20c8098ba9ff7a5b080"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/EmotionEngine.kt",
+      "size": 2041,
+      "sha256": "f1e3a895f3720421ea978b2edb77a8b32ec3ae26a9e7e9dbf92cf609c8c368de"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/GroupDialogueEngine.kt",
+      "size": 2221,
+      "sha256": "ac6e316e19efb5ef93ba1eea14ff32a14f5c883b4574f7a2a32698dea221524e"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/LongTermMemoryEngine.kt",
+      "size": 3245,
+      "sha256": "b8ae97f2097b9f7cc7bc3c1ebf067326538c1102ce7c65408d204f540531ae7b"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/MemoryRecallEngine.kt",
+      "size": 748,
+      "sha256": "4d7d640594e928a10fc54e828be970fa567c321073797071bf0410fffa27108a"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/NetworkPolicy.kt",
+      "size": 908,
+      "sha256": "bafd542f0ede15a1fe71714d2ff7a302e59458fe2119177fb9f233269ae9709b"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/PhotoReactionEngine.kt",
+      "size": 1650,
+      "sha256": "bdd3a08030079c08f1a4e1a2a18610871f42e11396890abaa04bfe3818df8543"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/ReactionAudioEngine.kt",
+      "size": 982,
+      "sha256": "b0d0c9c16b2b8e07c4516d1102127f4ebf98b510ed00b28eda3393a4731008e9"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/SocialDynamicsEngine.kt",
+      "size": 3305,
+      "sha256": "0696b5ebc2754549c2346d0d7f3b4be8cb47eea39d65c8761514568a2a729e35"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/TimeEngine.kt",
+      "size": 614,
+      "sha256": "e99b0c326c71aa32c5229b3e6e177cb047883abe49d4e92142627c05d39a71fc"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/engine/VoiceEngine.kt",
+      "size": 3568,
+      "sha256": "098b8b98168e6e4d4c29cfe4dfd59d3b1e4f361a7e3ecfe1f7a9d8ec0ddbd7e2"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/importer/MemoryImportEngine.kt",
+      "size": 9666,
+      "sha256": "a7a3f6d5c7839f12f2f6ed6d3639f229367cf0c25903873b7df73928d80f566a"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/CharacterProfile.kt",
+      "size": 1866,
+      "sha256": "4820771bf43b41e84917c99e3442b52936de243b54af59c81097f6e941e21cc5"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/CharacterState.kt",
+      "size": 334,
+      "sha256": "4e7d5c74879a0c86b11f51811559997ab4c2ff0b150608d2ee9568dc5c3a5d7a"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/Emotion.kt",
+      "size": 2007,
+      "sha256": "3bf3d982d83a4403ee54fec8f81cbfd7289817ca2637963285a2229c0b9a5b42"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/GroupChatModels.kt",
+      "size": 507,
+      "sha256": "3f87437b8b60e36e8cd66452444f0ab3149e892d073a06dc26291275cd49e751"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/LongTermMemoryItem.kt",
+      "size": 335,
+      "sha256": "cf0cb068b36462173daff6fab1c6b07155296ea6c91ba190e84ca2b9141af8d8"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/MemoryItem.kt",
+      "size": 258,
+      "sha256": "0820f09c0d6c1f25c33fde58feedcf9299d385f7c20d2e35f177f51d9e85d7f5"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/SocialRelationship.kt",
+      "size": 1089,
+      "sha256": "ef283397da4464e9028f6a1a0b62e080f0d4de4981799da06ef8780cf6f9384c"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/StickerItem.kt",
+      "size": 198,
+      "sha256": "0e282f16c39caa7d3a5c4b983a52b71288d75b5518f8390771d691c2d916ac58"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/model/VoiceClip.kt",
+      "size": 154,
+      "sha256": "882c431a6e9d769e0e8b7404e0ed9a8a264042f0e505ebd0c534abf6e32475e6"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/pack/CharacterPackManager.kt",
+      "size": 22329,
+      "sha256": "1d20325632b59bf15031fba4d3ce52eb3287ce4d126a3656717884aba5df980c"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/service/NotificationAwarenessService.kt",
+      "size": 4600,
+      "sha256": "187e4ba65f14aea847c50924451c5868adc469d5deae1f4cd5df74edd2eaddcd"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/service/OverlayService.kt",
+      "size": 23972,
+      "sha256": "4b4b8d8e130f74de1c02f63f5d1b19ac4953ad840e142ee79a3085bb38552c91"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ui/BubbleStyler.kt",
+      "size": 1891,
+      "sha256": "99a47eaebe26308c31d050afc79ccc0208f16bf80de43381b7b414d3485365f9"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ui/GroupChatActivity.kt",
+      "size": 14392,
+      "sha256": "c5cfe0c35c628d888f1af79ad3c664723482b66105868b26c08519a59ff19993"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ui/MainActivity.kt",
+      "size": 45572,
+      "sha256": "d97395b7de39cce7d8aa93cd7acd16840471c6be0100f497e2402d0742eaa2c4"
+    },
+    {
+      "path": "app/src/main/java/com/example/virtualcompanion/ui/PhotoReactionActivity.kt",
+      "size": 1896,
+      "sha256": "f36a2051a84517a1a28f0609004fc47c00d6cc623663720d5e727a1ae179b8e8"
+    },
+    {
+      "path": "app/src/main/res/drawable/companion_placeholder.xml",
+      "size": 758,
+      "sha256": "68ec31851ca77ed709e6eff3d5360e411c90c878a1ae3fa4ee389e98d1feac0d"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "size": 269,
+      "sha256": "22a420f4f3ae45859949bd7a6890408b7c0261b9634b4fdc3457ddfba61e977c"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "size": 479,
+      "sha256": "52936bd67766aa49b5f24419a87ca02228191c39b96952196195efa0b0f9d9f2"
+    },
+    {
+      "path": "app/src/test/java/com/example/virtualcompanion/engine/CoreEngineTest.kt",
+      "size": 1711,
+      "sha256": "52faa99d692247e630894244eaa58bc621ec37eaf1ab4d60980f09d594fea146"
+    },
+    {
+      "path": "build.gradle.kts",
+      "size": 142,
+      "sha256": "839f7e0de27d63af5785063c1a62fa16b8bc4d6758290eac8b5b473e7f2229f2"
+    },
+    {
+      "path": "build_local.sh",
+      "size": 648,
+      "sha256": "75134f1511d6f0d33052b7dad994595abd0968a7bd53c2d5f1c854c154a40620"
+    },
+    {
+      "path": "distribution-site/downloads/README.txt",
+      "size": 103,
+      "sha256": "2a69619f5654389c5799477cfc324e6b18c747ee5f968e2360e2b1ed4053d9b6"
+    },
+    {
+      "path": "distribution-site/index.html",
+      "size": 1914,
+      "sha256": "a1ffa780434c41f43f849ca14a7829721b797339dff216025faf48aea42061f8"
+    },
+    {
+      "path": "docs/AI_PROVIDER_SPEC.md",
+      "size": 1084,
+      "sha256": "04fb5e6b47ead7939f7b2867cf26d2a97c8f2c80fff0fa1a89b8efe8d0dfff5f"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 2534,
+      "sha256": "0c2b9d6a6ab3edf498d4bb618aead696d95e50dd28e291e04b9653b8ff07cddc"
+    },
+    {
+      "path": "docs/BUILD_VERIFICATION.md",
+      "size": 958,
+      "sha256": "ff2dca428e56c3850e410c571ad9ea3ecfb81059c0ea785f93d4cde7e5ba670a"
+    },
+    {
+      "path": "docs/CHARACTER_PACK_SPEC.md",
+      "size": 1417,
+      "sha256": "9dec6939ac2cede29c2737a03566b93fb5cc3941a7c23e4ce81d2626d44e4d33"
+    },
+    {
+      "path": "docs/CUSTOM_TTS_SPEC.md",
+      "size": 460,
+      "sha256": "ee0bca5fdaa8b8a779129b41721271efda597da6125b4be48ee744da84c4882b"
+    },
+    {
+      "path": "docs/DISTRIBUTION.md",
+      "size": 2206,
+      "sha256": "23caf8f13c0ce2b54a663214d278abdcaee0ebed100c1d16eaf224586d1e07ae"
+    },
+    {
+      "path": "docs/FIRST_APK.md",
+      "size": 1318,
+      "sha256": "f93173d6ba27861964a426258e9d61a8cb33e3d669f30ce99d3c6b3768cdcd11"
+    },
+    {
+      "path": "docs/GITHUB_HANDOFF.md",
+      "size": 585,
+      "sha256": "14b86de7f23f9be7096fe20a9a27647111b9660a1b79754288cf31373c17e07d"
+    },
+    {
+      "path": "docs/MULTI_CHARACTER_SOCIAL.md",
+      "size": 2589,
+      "sha256": "9d08bb31a4aa13b42472dde79a19908c9812eae6cf2b35579a5cb0a607cb7482"
+    },
+    {
+      "path": "docs/OFFLINE_MODE.md",
+      "size": 1407,
+      "sha256": "b3f89b305047845f1b1303bdf89045b6fc69d8b5f74aefa48dac9ca781459898"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "size": 1175,
+      "sha256": "64c10f317a55ed58fafe9d59397900ea4e071a184a6b25f690a254014d64b538"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "size": 253,
+      "sha256": "d7010368a34c1c06df2bae1a85d8b24c39b2499c74ac892fc7e66d005dbd7b8a"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 104,
+      "sha256": "5b7835c6218fa12650cc0b5273d7aa8e91e7547678edc9409f4c2ef7eebc8cab"
+    },
+    {
+      "path": "local.properties.example",
+      "size": 29,
+      "sha256": "30a27a6528c453b62ecdde4c199db058138257b5601ce562b14f1d9a04c5a869"
+    },
+    {
+      "path": "release/README_DOWNLOAD.txt",
+      "size": 216,
+      "sha256": "11da524bfbcafb8984666f51e735facbbf4acb3c82c93dd94b7602c4a01e11b2"
+    },
+    {
+      "path": "release/update-manifest.example.json",
+      "size": 578,
+      "sha256": "8160fa45b383ae2285b81e4beb0cca7726a730993620bf9db7be3786d2b5e3f5"
+    },
+    {
+      "path": "samples/memory_import_template.txt",
+      "size": 132,
+      "sha256": "1dbf37ed743a0f3c0d3e048bfc7b33dee5eafd5c2a2d8445d03fe08792bc2c2d"
+    },
+    {
+      "path": "scripts/prepare_release.sh",
+      "size": 471,
+      "sha256": "bc1047df1b19a5b733b39753a4cf4281eaf8e2897bb793d4fd35f063027277f5"
+    },
+    {
+      "path": "scripts/verify_source.sh",
+      "size": 2271,
+      "sha256": "3638c2a7923ad2a03a53def3c928f6cbc7e669ce693bfc5bbe801edcdbbc476f"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "size": 334,
+      "sha256": "fbe9fbc46f01388e2a8e85c7cfb209ab0f5081f1f9e78a70bc9fc46ccb472832"
+    }
+  ]
+}

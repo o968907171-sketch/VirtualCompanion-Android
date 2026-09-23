@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Virtual Companion</string>
+    <string name="notification_channel_name">虛擬角色常駐</string>
+    <string name="notification_channel_description">讓你建立的角色持續顯示在手機畫面上。</string>
+</resources>

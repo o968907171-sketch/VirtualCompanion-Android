@@ -1,0 +1,18 @@
+Virtual Companion Android v0.6.1
+
+Validation performed in the current environment:
+- Pure Kotlin core compiler check: CORE_KOTLIN_OK
+- Kotlin parser-oriented scan across all .kt files: KOTLIN_PARSER_SCAN_OK
+
+The current execution environment does not contain a complete Android SDK, so a real :app:assembleDebug result is NOT claimed here.
+The project keeps the GitHub Actions Android build workflow for an environment with the SDK.
+
+v0.6 adds INTERNET permission for optional external AI / Vision / custom TTS. Local mode remains usable without an API key.
+
+Offline / distribution additions:
+- Strict offline mode and automatic local fallback.
+- ACCESS_NETWORK_STATE only checks connectivity; no runtime prompt.
+- Static multi-mirror download page template and SHA-256 release script.
+- Public APK must be signed with a stable release key before distribution.
+
+新增：多人聊天室、方向性角色社交關係、吃醋／競爭／衝突／和好狀態與 AI socialContext。

@@ -1,0 +1,15 @@
+{
+  "app": "Virtual Companion",
+  "versionName": "0.6.1",
+  "versionCode": 7,
+  "minSdk": 26,
+  "apk": {
+    "fileName": "VirtualCompanion-v0.6.1.apk",
+    "sha256": "REPLACE_AFTER_BUILD",
+    "mirrors": [
+      {"label": "官方直連 / Official", "url": "https://example.com/downloads/VirtualCompanion-v0.6.1.apk"},
+      {"label": "中國大陸鏡像 / Mainland mirror", "url": "https://mirror.example.cn/VirtualCompanion-v0.6.1.apk"},
+      {"label": "GitHub Release", "url": "https://github.com/OWNER/REPO/releases/download/v0.6.1/VirtualCompanion-v0.6.1.apk"}
+    ]
+  }
+}

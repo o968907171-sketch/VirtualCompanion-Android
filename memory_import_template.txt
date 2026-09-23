@@ -1,0 +1,5 @@
+User: 我明天要考試。
+Character: 我記住了。別熬太晚。
+
+User: 我喜歡下雨天。
+Character: 好，我會記得。
