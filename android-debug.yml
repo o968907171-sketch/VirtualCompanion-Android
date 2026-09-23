@@ -1,0 +1,65 @@
+name: Build Virtual Companion APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Unpack project
+        run: |
+          unzip -o VirtualCompanion_Android_v0.7.1.zip
+          echo "PROJECT_DIR=VirtualCompanion_Android_v0.7.1" >> "$GITHUB_ENV"
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Android SDK
+        run: |
+          SDKMANAGER=/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+
+      - name: Run unit tests
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: gradle :app:testDebugUnitTest --stacktrace
+
+      - name: Run Android lint
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: gradle :app:lintDebug --stacktrace
+
+      - name: Build APK
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: gradle :app:assembleDebug --stacktrace
+
+      - name: Create SHA-256
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          sha256sum app/build/outputs/apk/debug/app-debug.apk \
+            | tee app-debug.apk.sha256
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: VirtualCompanion-v0.7.1-debug-apk
+          path: |
+            VirtualCompanion_Android_v0.7.1/app/build/outputs/apk/debug/app-debug.apk
+            VirtualCompanion_Android_v0.7.1/app-debug.apk.sha256
+            VirtualCompanion_Android_v0.7.1/app/build/reports/lint-results-debug.html
+          if-no-files-found: error
