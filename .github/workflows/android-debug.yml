@@ -25,7 +25,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      -      - name: Install Android SDK
+      -            - name: Install Android SDK
         run: |
           SDKMANAGER=/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager
           yes | "$SDKMANAGER" --licenses >/dev/null || true
